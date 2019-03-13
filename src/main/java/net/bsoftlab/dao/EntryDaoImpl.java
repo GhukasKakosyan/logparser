@@ -175,6 +175,7 @@ public class EntryDaoImpl implements EntryDao {
 
         } catch (SQLException sqlException) {
             this.rollbackConnection(connection, savepoint);
+            throw new DataAccessException(sqlException.getMessage());
         } finally {
             this.closeResultSet(resultSet);
             this.closePreparedStatement(preparedStatement);

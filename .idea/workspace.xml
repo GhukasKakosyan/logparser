@@ -6,18 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07228e35-527a-4382-afce-d8fb97570d34" name="Default" comment="">
+    <list default="true" id="07228e35-527a-4382-afce-d8fb97570d34" name="Default" comment="DataSourceFactory is changed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/createTables.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/dao/EntryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/dao/EntryDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/dao/datasource/DataSourceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/dao/exception/DataAccessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/bsoftlab/model/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logparser/logparser.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java" afterDir="false" />
     </list>
     <ignored path="logparser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +40,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="access@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="access@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="access@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="access: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExecutionTargetDialog">
@@ -61,20 +68,7 @@
     <favorites_list name="logparser" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +80,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Ghukas Kakosyan &lt;kakosyanghukas@gmail.com&gt;" />
         <option value="gh" />
       </list>
     </option>
@@ -99,10 +94,10 @@
         <option value="dbtable:/f08ed4ab/936e35b7-8917-439e-8246-9a1e7e3b705a/access.entries" />
         <option value="$PROJECT_DIR$/src/main/resources/createTables.sql" />
         <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/model/Entry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -143,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,64 +171,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bsoftlab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logparser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logparser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551949130068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551960844618" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -498,12 +447,21 @@
       <workItem from="1551695293314" duration="1327000" />
       <workItem from="1551778399127" duration="26000" />
       <workItem from="1551860678138" duration="1044000" />
-      <workItem from="1551935944304" duration="5822000" />
+      <workItem from="1551935944304" duration="11136000" />
+      <workItem from="1551966038873" duration="24000" />
     </task>
+    <task id="LOCAL-00001" summary="DataSourceFactory is changed.">
+      <created>1551949250198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551949250198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69347000" />
+    <option name="totallyTimeSpent" value="74685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,9 +474,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1376" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -535,16 +492,17 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" show_stripe_button="false" weight="0.57166123" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32899022" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49429038" weight="0.17119156" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49429038" visible="true" weight="0.17019667" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4877651" weight="0.17019667" />
       <window_info anchor="right" id="Coverage" order="7" show_stripe_button="false" sideWeight="0.5122349" side_tool="true" weight="0.17019667" />
       <window_info anchor="right" x="122" y="122" width="1182" height="544" id="Documentation" order="8" show_stripe_button="false" type="FLOATING" />
@@ -555,6 +513,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DataSourceFactory is changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="DataSourceFactory is changed." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -585,56 +547,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/database-ddl.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1220">
-          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
-          <folding>
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <marker date="1550911098222" expanded="true" signature="1959:2114" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="3829:4000" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5670" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5789" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5842" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5900" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5905" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5908" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5909" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5958" ph="..." />
-            <marker date="1550911098222" expanded="true" signature="5607:5959" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/exception/DataAccessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -659,6 +569,66 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/datasource/DataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/exception/DataAccessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/dao/EntryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <marker date="1551953831965" expanded="true" signature="1959:2114" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="3829:4000" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5670" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5789" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5842" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5900" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5905" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5908" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5909" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5958" ph="..." />
+            <marker date="1551953831965" expanded="true" signature="5607:5959" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/bsoftlab/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="78" column="69" lean-forward="true" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://936e35b7-8917-439e-8246-9a1e7e3b705a/schema/access/table/blockedips">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://936e35b7-8917-439e-8246-9a1e7e3b705a/schema/access/table/entries">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

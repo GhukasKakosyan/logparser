@@ -1,6 +1,0 @@
-net\bsoftlab\dao\EntryDaoImpl.class
-net\bsoftlab\dao\EntryDao.class
-net\bsoftlab\dao\datasource\DataSourceFactory.class
-net\bsoftlab\dao\exception\DataAccessException.class
-net\bsoftlab\model\Entry.class
-net\bsoftlab\Parser.class

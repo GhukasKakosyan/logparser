@@ -50,8 +50,8 @@ public class Parser {
         }
         File file = new File(accesslogArgument[1]);
         if (!file.exists() || file.isDirectory()) {
+            System.out.println("File does not exist.");
             System.out.println("You have entered incorrect file.");
-            System.out.println("File does not exist or this is directory.");
             return;
         }
 
